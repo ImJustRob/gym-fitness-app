@@ -13,4 +13,9 @@ class RoutinesController < ApplicationController
         )
         render :show
       end
+
+      def show
+        @routine = Routine.find_by(id: params[:id])
+        render :show
+      end
 end
