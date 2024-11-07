@@ -1,2 +1,5 @@
-json.extract! exercise, :id, :created_at, :updated_at
-json.url exercise_url(exercise, format: :json)
+json.id exercises.id
+json.name exercises.name
+json.description exercises.description
+json.image_url exercises.image_url
+json.video_url exercises.video_url
