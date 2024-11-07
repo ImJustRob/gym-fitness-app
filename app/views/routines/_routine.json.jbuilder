@@ -1,4 +1,5 @@
-json.id routines.id
-json.user_id routines.user_id
-json.exercise_id routines.exercise_id
-json.reps routines.reps
+json.id routine.id
+json.user_id routine.user_id
+json.exercise_id routine.exercise_id
+json.reps routine.reps
+json.sets routine.sets

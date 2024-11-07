@@ -1,5 +1,5 @@
-json.id exercises.id
-json.name exercises.name
-json.description exercises.description
-json.image_url exercises.image_url
-json.video_url exercises.video_url
+json.id exercise.id
+json.name exercise.name
+json.description exercise.description
+json.image_url exercise.image_url
+json.video_url exercise.video_url
