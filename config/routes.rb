@@ -10,14 +10,14 @@ Rails.application.routes.draw do
   get "/exercises/:id" => "exercises#show"
   post "/exercises" => "exercises#create"
   patch "/exercises/:id" => "exercises#update"
-  delete "/exercises/:id" => "exercises#delete"
+  delete "/exercises/:id" => "exercises#destroy"
 
   # routine routes
   get "/routines" => "routines#index"
   get "/routines/:id" => "routines#show"
   post "/routines" => "routines#create"
   patch "/routines/:id" => "routines#update"
-  delete "/routines/:id" => "routines#delete"
+  delete "/routines/:id" => "routines#destroy"
   # user routes
     post "/users" => "users#create"
     post "/sessions" => "sessions#create"
