@@ -29,4 +29,10 @@ class RoutinesController < ApplicationController
         )
         render :show
       end
+
+      def destroy
+        @routine = Routine.find_by(id: params[:id])
+        @routine.destroy
+        render json: { message: "routine removed successfully" }
+      end
 end
