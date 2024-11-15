@@ -22,6 +22,15 @@ Rails.application.routes.draw do
     post "/users" => "users#create"
     post "/sessions" => "sessions#create"
 
+    # comments routes
+  get "/comments" => "comments#index"
+  get "/comments/:id" => "comments#show"
+  post "/comments" => "comments#create"
+  patch "/comments/:id" => "comments#update"
+  delete "/comments/:id" => "comments#destroy"
+
+
+
   # Defines the root path route ("/")
   # root "posts#index"
 end
