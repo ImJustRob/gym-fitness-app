@@ -29,6 +29,13 @@ Rails.application.routes.draw do
   patch "/comments/:id" => "comments#update"
   delete "/comments/:id" => "comments#destroy"
 
+  # notes routes
+  get "/notes" => "notes#index"
+  get "/notes/:id" => "notes#show"
+  post "/notes" => "notes#create"
+  patch "/notes/:id" => "notes#update"
+  delete "/notes/:id" => "notes#destroy"
+
 
 
   # Defines the root path route ("/")
