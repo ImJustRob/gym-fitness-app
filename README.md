@@ -55,8 +55,8 @@ Requirements
 Installation
 Clone the repository:
 
-git clone https://github.com/your-username/fitness-app-api.git
-cd fitness-app-api
+git clone https://github.com/your-username/gym-fitness-app.git
+cd gym-fitness-app
 
 Install dependencies:
 
