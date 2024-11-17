@@ -1,14 +1,14 @@
 #README
 
-Fitness App API
-A RESTful API built with Ruby on Rails for managing exercises, routines, comments, notes, and user authentication for a fitness application. This API allows users to create, update, view, and delete exercises, routines, comments, and notes.
+Gym Fitness App 
+A RESTful built with Ruby on Rails for managing exercises, routines, comments, notes, and user authentication for a fitness application. This APP allows users to create, update, view, and delete exercises, routines, comments, and notes.
 
 Features
 * User Authentication: Users can sign up, log in, and manage their sessions with JWT-based authentication.
 * Exercise Management: Users can create, update, view, and delete exercises.
 * Routine Management: Users can create and manage their exercise routines, including sets and reps.
 * Comments and Notes: Users can add comments to exercises and notes to routines.
-* Health Check: A built-in endpoint to monitor the health status of the API.
+* Health Check: A built-in endpoint to monitor the health status of the APP.
 
 
 Endpoints
@@ -74,7 +74,7 @@ Start the Rails server:
 rails s
 
 
-The API will be accessible at http://localhost:3000.
+The APP will be accessible at http://localhost:3000.
 
 Testing
 To run the test suite, use the following command:
@@ -84,9 +84,9 @@ rails test
 Make sure that you have the necessary test dependencies installed (e.g., rspec, minitest, etc.) and configure the test database.
 
 
-API Documentation
+APP Documentation
 
-You can use tools like Postman or Insomnia to interact with the API. Make sure to include the Authorization header with the JWT token after logging in to access the protected endpoints like creating exercises, routines, and comments.
+You can use tools like Postman or Insomnia to interact with the APP. Make sure to include the Authorization header with the JWT token after logging in to access the protected endpoints like creating exercises, routines, and comments.
 
 Example Requests
 Create a User (POST /users):
