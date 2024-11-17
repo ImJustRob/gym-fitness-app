@@ -1,5 +1,7 @@
 #README
 
+Link to the frontend: https://github.com/ImJustRob/gym-fitness-app-frontend
+
 Gym Fitness App 
 A RESTful built with Ruby on Rails for managing exercises, routines, comments, notes, and user authentication for a fitness application. This APP allows users to create, update, view, and delete exercises, routines, comments, and notes.
 
